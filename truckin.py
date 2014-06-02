@@ -1,7 +1,7 @@
 import beeftruck.imagesearch
 import random
 
-images = beeftruck.imagesearch.lotsoftrucks()
+beefs = beeftruck.imagesearch.lotsoftrucks()
 
-print random.choice(images)
+print random.choice(beefs)
 
