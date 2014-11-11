@@ -14,10 +14,13 @@ def get_trucks(index=0):
 
 def lotsoftrucks(desiredImages=20):
     results = []
+    last = results[-1]
     index = 0
     while len(results) < desiredImages:
         for result in get_trucks(index=index):
             results.append(result)
         index += 4
+        
     return results
+    print last
     
